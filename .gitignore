@@ -1,0 +1,10 @@
+
+build/
+DerivedData/
+
+Pods/
+
+.DS_Store
+ReserveCodeTest.xcworkspace/xcuserdata
+ReserveCodeTest.xcodeproj/xcuserdata
+ReserveCodeTest/.DS_Store
