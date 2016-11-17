@@ -27,7 +27,6 @@
 		79B3C7941DDCF2A700D4BEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B3C7921DDCF2A700D4BEF1 /* Main.storyboard */; };
 		79B3C79C1DDCF2A700D4BEF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B3C79A1DDCF2A700D4BEF1 /* LaunchScreen.storyboard */; };
 		79B3C7A71DDCF2A700D4BEF1 /* ReserveCodeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B3C7A61DDCF2A700D4BEF1 /* ReserveCodeTestTests.m */; };
-		79B3C7B71DDCF41C00D4BEF1 /* RMModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79B3C7B51DDCF41C00D4BEF1 /* RMModel.xcdatamodeld */; };
 		79B3C7BC1DDCF46C00D4BEF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B3C7B91DDCF46C00D4BEF1 /* Assets.xcassets */; };
 		79B3C7BE1DDCF46C00D4BEF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B3C7BB1DDCF46C00D4BEF1 /* main.m */; };
 		79B3C7C21DDCFB2900D4BEF1 /* RMCoreDataHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B3C7C11DDCFB2900D4BEF1 /* RMCoreDataHandler.m */; };
@@ -311,7 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79B3C7B71DDCF41C00D4BEF1 /* RMModel.xcdatamodeld in Sources */,
 				79B3C7C21DDCFB2900D4BEF1 /* RMCoreDataHandler.m in Sources */,
 				79212D1A1DDE1740007ACE71 /* RMFetchUtilities.m in Sources */,
 				79B3C7911DDCF2A700D4BEF1 /* RMViewController.m in Sources */,
