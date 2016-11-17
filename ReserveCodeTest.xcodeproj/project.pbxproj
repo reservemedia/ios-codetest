@@ -123,6 +123,7 @@
 		79B3C7B11DDCF3FD00D4BEF1 /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
+				79B3C7C81DDD169000D4BEF1 /* Model */,
 				79B3C7C01DDCFB2900D4BEF1 /* RMCoreDataHandler.h */,
 				79B3C7C11DDCFB2900D4BEF1 /* RMCoreDataHandler.m */,
 				79B3C7B51DDCF41C00D4BEF1 /* RMModel.xcdatamodeld */,
@@ -147,6 +148,29 @@
 				79B3C79A1DDCF2A700D4BEF1 /* LaunchScreen.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		79B3C7C81DDD169000D4BEF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79B3C7C91DDD169000D4BEF1 /* ModelHuman */,
+				79B3C7CB1DDD169000D4BEF1 /* ModelMachine */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79B3C7C91DDD169000D4BEF1 /* ModelHuman */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelHuman;
+			sourceTree = "<group>";
+		};
+		79B3C7CB1DDD169000D4BEF1 /* ModelMachine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelMachine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
