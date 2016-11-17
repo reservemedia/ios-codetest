@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		79212D1A1DDE1740007ACE71 /* RMFetchUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 79212D191DDE1740007ACE71 /* RMFetchUtilities.m */; };
 		79B3C78E1DDCF2A700D4BEF1 /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B3C78D1DDCF2A700D4BEF1 /* RMAppDelegate.m */; };
 		79B3C7911DDCF2A700D4BEF1 /* RMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B3C7901DDCF2A700D4BEF1 /* RMViewController.m */; };
 		79B3C7941DDCF2A700D4BEF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B3C7921DDCF2A700D4BEF1 /* Main.storyboard */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79212D181DDE1740007ACE71 /* RMFetchUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMFetchUtilities.h; sourceTree = "<group>"; };
+		79212D191DDE1740007ACE71 /* RMFetchUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMFetchUtilities.m; sourceTree = "<group>"; };
 		79B3C7861DDCF2A700D4BEF1 /* ReserveCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReserveCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B3C78C1DDCF2A700D4BEF1 /* RMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMAppDelegate.h; sourceTree = "<group>"; };
 		79B3C78D1DDCF2A700D4BEF1 /* RMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMAppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79212D171DDE1740007ACE71 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				79212D181DDE1740007ACE71 /* RMFetchUtilities.h */,
+				79212D191DDE1740007ACE71 /* RMFetchUtilities.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		79B3C77D1DDCF2A700D4BEF1 = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +165,7 @@
 		79B3C7C81DDD169000D4BEF1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				79212D171DDE1740007ACE71 /* Utils */,
 				79B3C7C91DDD169000D4BEF1 /* ModelHuman */,
 				79B3C7CB1DDD169000D4BEF1 /* ModelMachine */,
 			);
@@ -300,6 +313,7 @@
 			files = (
 				79B3C7B71DDCF41C00D4BEF1 /* RMModel.xcdatamodeld in Sources */,
 				79B3C7C21DDCFB2900D4BEF1 /* RMCoreDataHandler.m in Sources */,
+				79212D1A1DDE1740007ACE71 /* RMFetchUtilities.m in Sources */,
 				79B3C7911DDCF2A700D4BEF1 /* RMViewController.m in Sources */,
 				79B3C7BE1DDCF46C00D4BEF1 /* main.m in Sources */,
 				79B3C78E1DDCF2A700D4BEF1 /* RMAppDelegate.m in Sources */,
@@ -539,6 +553,7 @@
 				79B3C7C51DDD0B0B00D4BEF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
