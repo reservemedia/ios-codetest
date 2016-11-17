@@ -302,7 +302,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "mogenerator --template-var arc=true -m ReserveCodeTest/Core\\ Data/RMModel.xcdatamodeld / -M ReserveCodeTest/Core\\ Data/Model/ModelMachine -H ReserveCodeTest/Core\\ Data/Model/ModelHuman --base-class NSManagedObject --includem ReserveCodeTest/Core\\ Data/Model/ModelIncludes --template-path ReserveCodeTest/Core\\ Data/Model/ModelTemplates";
+			shellScript = "mogenerator --template-var arc=true -m ReserveCodeTest/Core\\ Data/RMModel.xcdatamodeld / -M ReserveCodeTest/Core\\ Data/Model/ModelMachine -H ReserveCodeTest/Core\\ Data/Model/ModelHuman --includem ReserveCodeTest/Core\\ Data/Model/ModelIncludes --template-path ReserveCodeTest/Core\\ Data/Model/ModelTemplates";
 		};
 /* End PBXShellScriptBuildPhase section */
 
