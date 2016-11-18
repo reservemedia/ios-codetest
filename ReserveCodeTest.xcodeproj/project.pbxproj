@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		699F6EE13783BC503AA4776E /* libPods-ReserveCodeTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47080BD28845A03B06C259B6 /* libPods-ReserveCodeTest.a */; };
 		79212D1A1DDE1740007ACE71 /* RMFetchUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 79212D191DDE1740007ACE71 /* RMFetchUtilities.m */; };
 		79B3C78E1DDCF2A700D4BEF1 /* RMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B3C78D1DDCF2A700D4BEF1 /* RMAppDelegate.m */; };
 		79B3C7911DDCF2A700D4BEF1 /* RMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B3C7901DDCF2A700D4BEF1 /* RMViewController.m */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32953A4F191F650C8FE5C786 /* Pods-ReserveCodeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReserveCodeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReserveCodeTest/Pods-ReserveCodeTest.release.xcconfig"; sourceTree = "<group>"; };
+		47080BD28845A03B06C259B6 /* libPods-ReserveCodeTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReserveCodeTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79212D181DDE1740007ACE71 /* RMFetchUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMFetchUtilities.h; sourceTree = "<group>"; };
 		79212D191DDE1740007ACE71 /* RMFetchUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMFetchUtilities.m; sourceTree = "<group>"; };
 		79B3C7861DDCF2A700D4BEF1 /* ReserveCodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReserveCodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +64,7 @@
 		79B3C7BB1DDCF46C00D4BEF1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79B3C7C01DDCFB2900D4BEF1 /* RMCoreDataHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMCoreDataHandler.h; sourceTree = "<group>"; };
 		79B3C7C11DDCFB2900D4BEF1 /* RMCoreDataHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMCoreDataHandler.m; sourceTree = "<group>"; };
+		C19C821F2BE7ED63CF0D505F /* Pods-ReserveCodeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReserveCodeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReserveCodeTest/Pods-ReserveCodeTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699F6EE13783BC503AA4776E /* libPods-ReserveCodeTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B187D3CBA64057D47849869 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C19C821F2BE7ED63CF0D505F /* Pods-ReserveCodeTest.debug.xcconfig */,
+				32953A4F191F650C8FE5C786 /* Pods-ReserveCodeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		79212D171DDE1740007ACE71 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +110,8 @@
 				79B3C7881DDCF2A700D4BEF1 /* ReserveCodeTest */,
 				79B3C7A51DDCF2A700D4BEF1 /* ReserveCodeTestTests */,
 				79B3C7871DDCF2A700D4BEF1 /* Products */,
+				4B187D3CBA64057D47849869 /* Pods */,
+				ACE34324DE5AFD4D98AE5D7A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,6 +201,14 @@
 			path = ModelMachine;
 			sourceTree = "<group>";
 		};
+		ACE34324DE5AFD4D98AE5D7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47080BD28845A03B06C259B6 /* libPods-ReserveCodeTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79B3C7AB1DDCF2A700D4BEF1 /* Build configuration list for PBXNativeTarget "ReserveCodeTest" */;
 			buildPhases = (
+				30298F3E139C35AE6418F10D /* [CP] Check Pods Manifest.lock */,
 				79B3C7821DDCF2A700D4BEF1 /* Sources */,
 				79B3C7831DDCF2A700D4BEF1 /* Frameworks */,
 				79B3C7841DDCF2A700D4BEF1 /* Resources */,
+				016FFADD7F6B3B7E19EAE2D5 /* [CP] Embed Pods Frameworks */,
+				6E960687C1DF96B59B978090 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -290,6 +317,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		016FFADD7F6B3B7E19EAE2D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReserveCodeTest/Pods-ReserveCodeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30298F3E139C35AE6418F10D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E960687C1DF96B59B978090 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReserveCodeTest/Pods-ReserveCodeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		79B3C7C71DDD0B1800D4BEF1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -448,6 +520,7 @@
 		};
 		79B3C7AC1DDCF2A700D4BEF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C19C821F2BE7ED63CF0D505F /* Pods-ReserveCodeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -461,6 +534,7 @@
 		};
 		79B3C7AD1DDCF2A700D4BEF1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32953A4F191F650C8FE5C786 /* Pods-ReserveCodeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
