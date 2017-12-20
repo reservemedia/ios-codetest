@@ -18,7 +18,7 @@ For this code test you will create a native iOS weather app for iPad.
 
 ### Search Modal
 
-We recommend utilizing the [Google Places Autocomplete API](https://developers.google.com/places/web-service/autocomplete) to generate search results when a user starts typing in a city name. However, you have freedom to implement this however you like.
+- We recommend using [Google Places Autocomplete API](https://developers.google.com/places/web-service/autocomplete) to generate search results when a user starts typing in a city name. However, you have freedom to implement this however you like.
 
 ### City Detail
 
