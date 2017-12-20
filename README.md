@@ -1,22 +1,36 @@
 # Reserve's iOS Code Test
-For this code test you will create a native iOS application that loads a remote list of reservations and displays them in a list.
+For this code test you will create a native iOS weather app for iPad.
 
 ## Getting Started
-We have provided a starter project with the Core Data stack set up and CocoaPods initialized.
 
-### Installation
-If you do not have CocoaPods installed, simply run `sudo gem install cocoapods` in Terminal. We use [Mogenerator](https://github.com/rentzsch/mogenerator) to help create our Core Data model classes. If you don't have Mogenerator, you can [download it here](http://rentzsch.github.io/mogenerator/). It's not required for this code test but is recommended. A target is already added to the project for Mogenerator.
+### Designs
+- [Sketch](https://sketchapp.com) - Free trial for Sketch available on their website. 
 
-## Guidelines
-The application should use Core Data and CocoaPods with any open source libraries of your choosing to assist you in completing the task. It is preferred that your solution utilize Storyboards and Auto Layout, but this is not a requirement. The project should reflect your strong grasp of the components and classes of the iOS SDK.
+## Screens
 
-### User Interface
-When it becomes active, the app should load the JSON available [here](http://private-030b4-codetest3.apiary-mock.com/reservations). This JSON provides reservations with guests for a range of days. The UI should include:
-* All reservations should display by default.
-* There should be a date selector which only displays dates that actually have reservations.
-* When a date is selected, the reservation list should filter to only show reservations for that particular date.
-* The reservations should be sorted by party size by default, but can also be sorted alphabetically by guest last name or reservation time.
-* The reservations should display as individual cells within the list and should include guest name, party size, and reservation time.
+### Main
+
+- The main screen should have a header bar that has the current date.
+- An initial empty state should be displayed when the list is empty.
+- There should be a [FAB button](https://material.google.com/components/buttons-floating-action-button.html) on the bottom right of the screen. Tapping on it should open a modal that lets the user search for a city to add to their list.
+- The forecast should display on the city card for every city in the list. The background of the city card should be dynamically created based on the city's current weather.
+- Tapping on a city card should present the user to a city detail page.
+
+### Search Modal
+
+We recommend utilizing the [Google Places Autocomplete API](https://developers.google.com/places/web-service/autocomplete) to generate search results when a user starts typing in a city name. However, you have freedom to implement this however you like.
+
+### City Detail
+
+- The city detail screen should display additional weather information for the chosen city.
+- The header on the detail screen should display the city name.
+- Details about today's weather in the city should display along with a six-day forecast.
+- The background color of the screen should be the same color that displays on the city card.
+
+### Libraries
+* [Forecast.io](https://developer.forecast.io/) - This is the weather API we
+recommend. It provides weather data and allows for up to 1000 API calls per
+day for free.
 
 ### Creative License
 You may add any additional features you think would improve the experience or presentation of the test description, but these additions should not alter the basic parameters described above.
@@ -26,8 +40,9 @@ The finished app should be clear and easy operate for any non‐technical user w
 ## Criteria for Review
 We will be reviewing your submission based on the following:
 * Does it function as expected?
+* Does the layout match the design provided?
 * Code style and organization.
 * Proper usage of libraries and frameworks.
 
 ## Project Delivery
-Please provide this Xcode project with your solution zipped via email. Do not host publicly.
+Please provide the Xcode project with your solution zipped via email. Do not host publicly.
